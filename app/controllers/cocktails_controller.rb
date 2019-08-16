@@ -20,6 +20,7 @@ class CocktailsController < ApplicationController
     @cocktail = Cocktail.find(params[:id])
   end
 
+
   private
 
   def cocktail_params

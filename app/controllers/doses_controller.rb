@@ -1,5 +1,5 @@
 class DosesController < ApplicationController
-before_action :set_dose, only: [ :show, :edit, :update, :destroy ]
+before_action :set_dose, only: [ :show, :edit, :update, :destroy]
 
 
   def new
